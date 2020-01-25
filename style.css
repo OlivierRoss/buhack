@@ -1,0 +1,134 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3 {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+nav {
+  height: 10vh;
+  color: #4F2D7F;
+  padding: 0 10%;
+}
+
+#logo {
+  float: left;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img {
+  height: 80%;
+}
+
+#menu {
+  float: right;
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+#menu .item a {
+  text-decoration: none;
+  color: #4F2D7F;
+}
+
+#cookies {
+  position: fixed;
+  bottom: 1%;
+  right: 10%;
+  width: 10%;
+  padding: 1%;
+  background-color: #4F2D7F;
+  color: white;
+  font-family: 'Anonymous Pro', monospace;
+
+  border: 2px solid white;
+}
+
+#cookies button {
+  margin-top: 5%;
+  float: right;
+
+  background-color: white;
+  border-radius: 0px;
+  border: none;
+  padding: 2px 15px;
+}
+
+#presentation {
+  height: 90vh;
+  background-color: #FFFF00;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#text {
+  position: relative;
+  left: 10%;
+
+  text-transform: uppercase;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2em;
+  color: #4F2D7F;
+}
+
+#subtitle {
+  font-size: 0.5em;
+}
+
+#splash {
+  position: relative;
+  right: 10%;
+  width: 40%;
+}
+
+#schedule {
+  column-count: 2;
+  column-gap: 10%;
+  padding: 10vh 10vw
+}
+
+#register {
+  height: 20vh;
+
+  background-color: #FFFF00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register button {
+  text-transform: uppercase;
+  color: white;
+
+
+  background-color: #4F2D7F;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2em;
+
+  border-radius: 0px;
+  border: none;
+  padding: 10% 50%;
+}
+
+#register a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #4F2D7F;
+  padding: 10vh 10vw;
+}
