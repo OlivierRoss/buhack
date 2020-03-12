@@ -31,30 +31,8 @@ nav {
   color: #8dce34;
 }
 
-#cookies {
-  position: fixed;
-  bottom: 1%;
-  right: 10%;
-  width: 10%;
-  padding: 1%;
-  background-color: #4F2D7F;
-  color: white;
-  font-family: 'Anonymous Pro', monospace;
-
-  border: 2px solid white;
-}
-
-#cookies button {
-  margin-top: 5%;
-  float: right;
-
-  background-color: white;
-  border-radius: 0px;
-  border: none;
-  padding: 2px 15px;
-}
-
 #presentation {
+  padding: 10vh 10vw;
   background-color: #4f2e7f;
 }
 
@@ -66,8 +44,13 @@ nav {
   color: white;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin: 1%;
+}
+
 .subtitle {
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 #moment {
@@ -89,6 +72,7 @@ nav {
 
 .info h2, .info h3 {
   color: white;
+  font-size: 2.5em;
 }
 
 #schedule {
@@ -143,7 +127,7 @@ nav {
   background-color: white;
 
   font-family: 'Anonymous Pro', monospace;
-  font-size: 2em;
+  font-size: 2rem;
 
   border-radius: 20px;
   border: 5px solid #4F2D7F;
